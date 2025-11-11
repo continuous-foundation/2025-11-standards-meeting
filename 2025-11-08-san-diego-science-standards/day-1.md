@@ -13,7 +13,7 @@ Before the in-person meeting, we went through the context of where the group is,
 **The way we do science has changed, but the way we communicate it has not kept up.** To illustrate through an example of standards evolution we introduced a case study on the format evolution of compressed and distributed scientific data; from ZIP --> HDF5 --> Zarr, and how the format changed to suit new capabilities and ultimately has enabled new ecosystems with each evolution. You can read the full case study here [@zip-to-zarr].
 
 :::{figure #fig-zip-to-zarr} zip-to-zarr.png
-We presented a case study of 30 years of evolution in sharing scientific data, from zip files in the 1989 to HDF5 that introduced structured metadata alongside binary arrays to open up parallel IO on clusters to Zarr introduced in 2015 that enabled distributed data-access in a simplified, cloud-native way. These new formats changed the ecosystem at each stage, and also brought with them the best practices from the standard before.
+We presented a case study [@zip-to-zarr] of 30 years of evolution in sharing scientific data, from zip files in the 1989 to HDF5 that introduced structured metadata alongside binary arrays to open up parallel IO on clusters to Zarr introduced in 2015 that enabled distributed data-access in a simplified, cloud-native way. These new formats changed the ecosystem at each stage, and also brought with them the best practices from the standard before.
 :::
 
 We also shared a case study on Jupyter and JupyterHub, where Carol Willing talked about the beginnings of these conversations that started with a dream, ambition, values, and a community of extremely talented people. Both of these tools and standards a decade later have millions of users and support unique and **fundamentally** new use cases that were not previously possible.
@@ -26,7 +26,7 @@ To further set the stage, we invited lightning talks from Quarto, eLife, Creativ
 
 # Ideation and Group Discussion
 
-We prompted the group to ideate, dream on an idealistic future, and then focus on concrete actions that we could take in the next day and a half that would make progress towards that future. We took 10 minutes and wrote ideas on sticky notes. Then we paired up to discuss, identify themes and create new ideas. Pairs then connected into groups of 5 or 6, and those groups reported out on the themes. 
+We prompted the group to ideate, dream on an idealistic future, and then focus on concrete actions that we could take in the next day and a half that would make progress towards that future. We took 10 minutes and wrote ideas on sticky notes. Then we paired up to discuss, identify themes and create new ideas. Pairs then connected into groups of 5 or 6, and those groups reported out on the themes.
 
 > What do you wish was possible in scientific communication that is not possible or broadly adopted today?
 
@@ -39,7 +39,7 @@ A small sample of some of the brainstorming and ideas from the group.
 Across all groups, several recurring themes and also some concerns and opportunities around artificial intelligence surfaced:
 
 Component-based and modular science
-: Multiple groups emphasized breaking research into smaller, composable units—figures, datasets, methods—that could be recombined for different audiences (policy makers, educators, the public). These "component pieces" would form a new modular infrastructure for knowledge and could come with their own attribution and licensing. 
+: Multiple groups emphasized breaking research into smaller, composable units—figures, datasets, methods—that could be recombined for different audiences (policy makers, educators, the public). These "component pieces" would form a new modular infrastructure for knowledge and could come with their own attribution and licensing.
 
 Computational content — built in, not bolted on
 : Participants highlighted that computation should be natively included in the research narrative, not an afterthought. The goal is to treat code, data, and visualizations as first-class objects within the scientific record—interwoven with text and metadata, not hidden in supplements or external notebooks. Projects like Stencila, Curvenote, MyST, and Quarto were cited as leading examples of this integrated approach, where execution, interactivity, and reproducibility are embedded directly into the document itself.
@@ -51,23 +51,23 @@ Interoperability and standardization
 : Participants stressed the need for shared schemas or "record locators" for research objects to make data, code, and media discoverable and reusable across distributed systems. This would remove the friction of incompatible formats between repositories and journals and make it possible to more easily link components together.
 
 Human connection amid automation
-: Despite technical focus, there was an emotional thread—preserving human relationships and trust networks in a landscape increasingly mediated by algorithms and AI filters. 
+: Despite technical focus, there was an emotional thread—preserving human relationships and trust networks in a landscape increasingly mediated by algorithms and AI filters.
 
 Trust, reputation, and accountability
-: Participants worried about how to maintain human accountability in an era of AI-generated content and papermills. Identity and persistent identifiers for people (not just papers) were seen as one important component to rebuild trust and reputation in the scientific record. 
+: Participants worried about how to maintain human accountability in an era of AI-generated content and papermills. Identity and persistent identifiers for people (not just papers) were seen as one important component to rebuild trust and reputation in the scientific record.
 
 Attribution and licensing
-: When modular components of science - data, code, images - can be more easily distributed or remixed, participants recognized that these components can then come with their own attribution and licensing, and we can build that into our technologies and approaches. 
+: When modular components of science - data, code, images - can be more easily distributed or remixed, participants recognized that these components can then come with their own attribution and licensing, and we can build that into our technologies and approaches.
 
 Quality versus quantity in publishing
 : The flood of low-quality or fraudulent content is overwhelming peer review and submission. Some groups discussed using AI-assisted review as "fighting fire with fire," with both potential and pitfalls.
 
-In the group discussion, we came up with a metaphor [@cite] as an organizing principle to break into groups to get towards more concrete ideas to progress on these ideas in the next few days.
+In the group discussion, we came up with a metaphor to describe a "decoupled journal" [@10.3389/fncom.2012.00019] as an organizing principle to break into groups to get towards more concrete ideas to progress on these ideas in the next few days.
 
 > What are the pathways to getting there that we can make progress on together **tomorrow**?
 
 :::{figure #fig-breakout-1} breakout-1.png
-Working together in small groups on various ideas.
+Working together in small groups on various ideas. Left to right: Franklin Koch, John Kaye, and Rose Reatherford.
 :::
 
 # The Bedrock–Soil–Flowers Metaphor 🌸🌷🌻
@@ -103,7 +103,7 @@ Trust propagates upward
 : A trustworthy and transparent "bedrock" is made possible through identifying the connections between research objects, and ultimately new applications/experiences that can provide different curation, badging and labelling services that also contribute meaningful and reusable data.
 
 Quality can tolerate imperfection
-: The group agreed the bedrock can also contain low quality outputs; open, messy data/resources _are acceptable_ as long as filtering and curation (the soil/ecosystem) evolve accordingly and/or communities have the ability to self organize. This mirrors many of the existing cultures decoupling dissemination from review. 
+: The group agreed the bedrock can also contain low quality outputs; open, messy data/resources _are acceptable_ as long as filtering and curation (the soil/ecosystem) evolve accordingly and/or communities have the ability to self organize. This mirrors many of the existing cultures decoupling dissemination from review.
 
 Ecosystem thinking
 : Each layer enables the next; no single actor can build all three. The system's resilience comes from modularity and interoperability.
@@ -137,7 +137,7 @@ The group discussed the potential for many new types of applications and service
 
 The group proposed to do a sprint using collaborative prototyping and new LLM-based programming tools to quickly pull together concepts and iterate as a group. As not everyone was familiar with these tools, they decided to mostly work together on a single new prototype that brought together aspects of search, discovery, curation, trust signals, and embedded reading experiences from the open exchange architecture. A separate effort was proposed to look at the combination of multiple computational research articles from the NeuroLibre project, to explore what is possible when full context to the science is made available (the environment, data, code and narrative).
 
-Another group discussed the importance of working with scientific communities in understanding needs and interests and creating spaces for agile and iterative deployment and feedback with the groups and people who are sharing science. They discussed the importance of communities coming to tool-builders with their needs and ideas, rather than tools being pushed to communities, and the attributes of forming these community relationships. Personas can be valuable in thinking through user needs, and there was interest in collective personas in scientific communication. 
+Another group discussed the importance of working with scientific communities in understanding needs and interests and creating spaces for agile and iterative deployment and feedback with the groups and people who are sharing science. They discussed the importance of communities coming to tool-builders with their needs and ideas, rather than tools being pushed to communities, and the attributes of forming these community relationships. Personas can be valuable in thinking through user needs, and there was interest in collective personas in scientific communication.
 
 # Evening Activity & Day 2
 

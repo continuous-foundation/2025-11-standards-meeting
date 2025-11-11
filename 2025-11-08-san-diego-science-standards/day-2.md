@@ -27,9 +27,9 @@ Model Communities
 ---
 
 :::{figure #fig-breakout-2} breakout-2.png
-Working together throughout the day on different ways to communicate scientific content.
+Working together throughout the day on different ways to communicate scientific content. From left to right: Anton Molina, Nokome Bentley
 :::
 
 :::{figure #fig-breakout-3} breakout-3.png
-Merging creative commons approach and ideas for how to build attribution and licensing directly into the open exchange architecture.
+Merging creative commons approach and ideas for how to build attribution and licensing directly into the open exchange architecture. From left to right: Carlos Scheidegger and Taylor Campbell.
 :::
