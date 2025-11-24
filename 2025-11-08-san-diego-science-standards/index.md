@@ -22,7 +22,7 @@ Participants of the workshop in November 8, 2025 in San Diego, California. Agah 
 
 Two and a half day, in person implementation meeting. This group of developers will convene for 2.5 days in a facilitated meeting with the following structure.
 
-:::{card} 1️⃣ Day 1 — Nov 6
+:::{card} 1️⃣ Day 1 — Nov 6 — Setting Context & Direction
 :url: ./day-1.md
 9am - 12pm: The first half day of the meeting will focus on discussion, following from our virtual meeting, identifying where there are coordinated development opportunities and small groups who will work together.
 12-1pm: Lunch
@@ -31,7 +31,7 @@ Two and a half day, in person implementation meeting. This group of developers w
 5-9pm: Rest and Dinner.
 :::
 
-:::{card} 2️⃣ Day 2 — Nov 7
+:::{card} 2️⃣ Day 2 — Nov 7 — Hacking, Building, Vibe-ing
 :url: ./day-2.md
 9am-10am: Recap from the previous day. What came up that we need to discuss or resolve?
 10am-11:30am: Have discussion or work based on areas of interest, friction, or disagreement that we observed.
@@ -42,7 +42,7 @@ Two and a half day, in person implementation meeting. This group of developers w
 7-9pm: Informal hacker time and demos.
 :::
 
-:::{card} 3️⃣ Day 3 — Nov 8
+:::{card} 3️⃣ Day 3 — Nov 8 — Demo Day & Next Steps
 :url: ./day-3.md
 9-10:30am: Demo and discuss where we are
 10:30-12pm: Plan next steps and areas where we’ll communicate with each other
