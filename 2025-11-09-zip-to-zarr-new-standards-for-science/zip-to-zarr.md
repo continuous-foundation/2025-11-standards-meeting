@@ -1,6 +1,6 @@
 ---
-title: 'New Standards for Scientific Publishing'
-subtitle: 'Learnings from ZIP to Zarr: The Evolution of Scientific Data Formats'
+title: 'The Evolution of Scientific Data Formats'
+subtitle: 'Learnings from ZIP to Zarr on New Standards for Scientific Publishing'
 abstract: |
   We motivate an Open Exchange Architecture (`oxa`) for scientific publishing, informed by the progression from ZIP archives to HDF5 stores to Zarr-based object collections. By abstracting articles, data, code, and review materials into addressable, typed components, we want an open exchange architecture that can preserve the semantic richness of JATS while matching the access patterns of modern cloud-native science. We describe some of the interoperability requirements needed to make scholarly communication as streamable, reproducible, and machine-actionable as contemporary scientific datasets.
 ---
@@ -102,7 +102,7 @@ But that infrastructure still assumes a _file-based world_. One based around XML
 
 - JATS is an XML file. No images or other assets, primarily designed for text-only data-mining.
 - MECA is a ZIP file. It can contain any amount of supplementary materials.
-- And many publishers literally still use FTP servers to move those files between systems.
+- And many publishers still use FTP servers to move those files between systems.
 
 They're reliable and (relatively) standardized[^jats].
 But they're not accessible to developers or to the component pieces of research.
@@ -146,6 +146,3 @@ It's time to imagine what publishing looks like when _articles are as open, stru
 
 Not a new standard for the sake of it —
 but a new standard for what's possible in scientific communication.
-
-:::{image width="50%" align=center} ./thumbnail.png
-:::

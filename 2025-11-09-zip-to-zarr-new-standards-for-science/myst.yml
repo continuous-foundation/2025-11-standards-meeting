@@ -3,8 +3,8 @@ extends:
   - ../csf.yml
 project:
   id: a295b1ed-a0ff-4348-9aac-e951bdb0cc6a
-  title: 'New Standards for Scientific Publishing'
-  subtitle: 'Learnings from ZIP to Zarr: The Evolution of Scientific Data Formats'
+  title: 'The Evolution of Scientific Data Formats'
+  subtitle: 'Learnings from ZIP to Zarr on New Standards for Scientific Publishing'
   description: |
     In the world of scientific publishing, new standards are often met with a groan, followed by someone sharing that xkcd about "there being 14 competing standards… now 15." It's funny because it's true — sometimes. The evolution from ZIP to HDF5 to Zarr tells that story perfectly.
   date: 2025-11-09
@@ -19,5 +19,12 @@ project:
     JSON: JavaScript Object Notation
     JSON-LD: JSON Linked Data
     RDF: Resource Description Framework
+    'I/O': Input/Output
+    NCSA: National Center for Supercomputing Applications
+    HDF: Hierarchical Data Format
+    NASA: National Aeronautics and Space Administration
+    FTP: File Transfer Protocol
+    XML: Extensible Markup Language
+    API: Application Programming Interface
   references:
     cs: https://articles.continuousfoundation.org/articles/defining-continuous-science
