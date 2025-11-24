@@ -11,6 +11,8 @@ project:
   authors:
     - rowan
     - tracy
+  abbreviations:
+    OXA: Open Exchange Architecture
   toc:
     - file: index.md
     - file: day-1.md

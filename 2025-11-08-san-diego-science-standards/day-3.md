@@ -10,11 +10,19 @@ Snippets of what we presented are below. We then talked about next steps, especi
 
 Define shared schemas and tools for authoring, publishing and archiving scientific content, based from experience in the scientific authoring ecosystem (Quarto, MyST, Curvenote, Stencila) — a new Open Exchange Architecture. We aimed to present on (a) a new schema with examples; (b) how this can export from quarto (as myst/stencila were already relatively compatible); (c) define high-fidelity links to components; (d) discuss the "container" for the research content; and (e) discuss how this could work with other publishing systems and tools (JATS, MECA, Octopus, etc.). Crucially, we wanted to leave with something **concrete** that had a name (which we came up with together on day 2), logo, domain, repository and could be installed from node and pypi.
 
-:::{figure} carlos-oxa.png
+:::{figure #fig-oxa-presentation width="50%"} carlos-oxa.png
 Carlos presenting on the schemas for the Open Exchange Architecture (OXA).
 :::
 
 We created a [GitHub Repository](https://github.com/scientific-publishing-tools-meeting/oxa) and [website](https://oxa.dev) to push the effort forward.
+
+::::{important .dropdown} Choosing the Name OXA
+A small prototype was pulled together to look at the available three-letter extensions (narrowed from 17,576 to 1756, see [available extensions](./available-extensions.txt)) as well as coming up with backronyms using AI. We ultimately didn't take the voting system forward, but the research into extension names helped to seed the conversation.
+
+:::{figure} oxa-name.mp4
+A prototype for a voting system, that ultimately wasn't used.
+:::
+::::
 
 ## Creative Commons — Modular Reuse, Licensing and Attribution
 
