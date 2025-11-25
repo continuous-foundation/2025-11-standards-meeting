@@ -10,6 +10,12 @@ project:
   date: 2025-11-09
   authors:
     - rowan
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/csf.git
+      article: index.md
+      output: full_text.pdf
   abbreviations:
     DOI: Digital Object Identifier
     JATS: Journal Article Tag Suite
