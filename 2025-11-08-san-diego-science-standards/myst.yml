@@ -13,6 +13,11 @@ project:
     - tracy
   abbreviations:
     OXA: Open Exchange Architecture
+    LLM: Large Language Model
+    CZI: Chan Zuckerberg Initiative
+    MyST: Markedly Structured Text
+    TASLAR: Title, Author, Source Link, License Link, Attribution Statement, Rights Statement
+    # TASLAR: Trusted Attribution Schema for Licensing and Attribution of Research
   toc:
     - file: index.md
     - file: day-1.md

@@ -18,34 +18,23 @@ Participants of the workshop in November 8, 2025 in San Diego, California. Agah 
 
 :::
 
-## Agenda
+## The Three Days
 
-Two and a half day, in person implementation meeting. This group of developers will convene for 2.5 days in a facilitated meeting with the following structure.
+Over two and a half days, we moved from setting shared context and vision to hands-on building and prototyping, culminating in demos and concrete next steps. Each day built on the previous one, with structured discussions giving way to parallel work streams and finally public presentations of what we'd accomplished together.
 
-:::{card} 1️⃣ Day 1 — Nov 6 — Setting Context & Direction
+:::{card} 🗺️ Setting Context & Direction (Nov 6)
 :url: ./day-1.md
-9am - 12pm: The first half day of the meeting will focus on discussion, following from our virtual meeting, identifying where there are coordinated development opportunities and small groups who will work together.
-12-1pm: Lunch
-1pm - 4:30pm: Small group discussions or beginning of exploring code together.
-4:30-5pm: Lightning demos of what people are working on.
-5-9pm: Rest and Dinner.
+We kicked off with lightning talks from Quarto, eLife, Creative Commons, arXiv, and others, then dove into ideation sessions to dream up an idealistic future for scientific communication. The group aligned on a powerful metaphor—Bedrock, Soil, and Flowers—to describe the evolving structure of scientific knowledge, and broke into working groups to tackle concrete implementation challenges. Read about the full day's discussions, the case studies we explored, and how we organized ourselves for the work ahead.
 :::
 
-:::{card} 2️⃣ Day 2 — Nov 7 — Hacking, Building, Vibe-ing
+:::{card} 👩‍💻 Hacking, Building, Vibe-ing (Nov 7)
 :url: ./day-2.md
-9am-10am: Recap from the previous day. What came up that we need to discuss or resolve?
-10am-11:30am: Have discussion or work based on areas of interest, friction, or disagreement that we observed.
-11:30-12:00pm Lightning demos of what people are working on.
-12-1: Lunch
-1-5pm: Continue work and discussions. Opportunity to add new ideas or switch projects.
-5-7pm: Rest and Dinner.
-7-9pm: Informal hacker time and demos.
+Teams worked in parallel on six key initiatives: building the Open Exchange Architecture (OXA) schemas, integrating Creative Commons licensing, extending MECA for interoperability, exploring computational research content with AI, prototyping a "Spotify for Science" application, and identifying model communities for pilot deployments. See what we built, the technical decisions we made, and how the different groups collaborated throughout the day.
 :::
 
-:::{card} 3️⃣ Day 3 — Nov 8 — Demo Day & Next Steps
+:::{card} 🚀 Demo Day & Next Steps (Nov 8)
 :url: ./day-3.md
-9-10:30am: Demo and discuss where we are
-10:30-12pm: Plan next steps and areas where we’ll communicate with each other
+We presented our progress: a new OXA format with working schemas and repositories, a TASLAR framework for modular licensing and attribution, a live "Spotify for Science" prototype, and discussions on computational research content and community adoption. Then we mapped out concrete next steps for moving these initiatives forward. Watch the demos and see where we're heading next.
 :::
 
 ## Participants
