@@ -75,6 +75,7 @@ Two and a half day, in person implementation meeting. This group of developers w
 | Taylor Campbell    | Creative Commons                               |
 | Ted Roeder         | bioRxiv/openRxiv                               |
 | Tom Scott          | PLOS                                           |
+| Tony Alves         | HighWire                                       |
 | Tracy Teal         | openRxiv                                       |
 
 Regrets: Stephan Van der Walt (Jupyter), Chris Hartgerink (ResearchEquals), Gabe Stein (KnowledgeFutures), Chris Holdgraf / Greg Caporaso (MyST Steering Council), Adam Hyde (Coko/Katahi).
