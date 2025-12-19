@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../csf.yml
 project:
+  doi: 10.62329/kcep6732
   id: ccc3c832-1120-4740-ab58-e435eb72dce4
   title: From Tools to Adoption
   subtitle: 'A Path to Modular and Interactive Scientific Publishing'
