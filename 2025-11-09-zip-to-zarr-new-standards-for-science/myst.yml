@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../csf.yml
 project:
+  doi: 10.62329/mkpy9389
   id: a295b1ed-a0ff-4348-9aac-e951bdb0cc6a
   title: 'The Evolution of Scientific Data Formats'
   subtitle: 'Learnings from ZIP to Zarr on New Standards for Scientific Publishing'
@@ -16,6 +17,9 @@ project:
       template: https://github.com/curvenote-templates/csf.git
       article: index.md
       output: full_text.pdf
+  downloads:
+    - id: pdf
+      title: Download PDF
   abbreviations:
     DOI: Digital Object Identifier
     JATS: Journal Article Tag Suite
