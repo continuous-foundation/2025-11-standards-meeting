@@ -19,7 +19,7 @@ We created a [GitHub Repository](https://github.com/scientific-publishing-tools-
 ::::{important .dropdown} Choosing the Name OXA
 A small prototype was pulled together to look at the available three-letter extensions (narrowed from 17,576 to 1756, see [available extensions](./available-extensions.txt)) as well as coming up with backronyms using AI. We ultimately didn't take the voting system forward, but the research into extension names helped to seed the conversation.
 
-:::{figure} oxa-name.mp4
+:::{figure} oxa-name
 A prototype for a voting system, that ultimately wasn't used.
 :::
 ::::
@@ -57,7 +57,7 @@ Produce an experiment of pulling together two computational articles (written in
 
 Lead an effort to bring many APIs and services together into a new way to browse research that can elevate different trust signals and show research content in new ways.
 
-:::{figure} spotify-for-science.mp4
+:::{figure} spotify-for-science
 A walkthrough of the application that was developed in a day that pulled together APIs from a number of different projects in the ecosystem. It is live here: https://v0-aperio-ui-design.vercel.app/
 :::
 

@@ -19,6 +19,20 @@ project:
     MyST: Markedly Structured Text
     TASLAR: Title, Author, Source Link, License Link, Attribution Statement, Rights Statement
     # TASLAR: Trusted Attribution Schema for Licensing and Attribution of Research
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/csf.git
+      articles:
+        - index.md
+        - day-1.md
+        - bedrock.md
+        - day-2.md
+        - day-3.md
+      output: full_text.pdf
+  downloads:
+    - id: pdf
+      title: Download PDF
   toc:
     - file: index.md
     - file: day-1.md
